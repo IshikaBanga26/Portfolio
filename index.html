@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishika's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  </head>
+  <body class="font-sans text-gray-800">
+    <!-- Navigation Bar -->
+    <nav
+      class="bg-white shadow-md sticky top-0 z-50 px-6 py-4 flex justify-center gap-6"
+    >
+      <a href="#home" class="hover:text-blue-500">Home</a>
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="min-h-screen bg-gradient-to-b from-white via-blue-50 to-white flex flex-col items-center text-center py-20 px-4">
+    
+      <!-- Avatar Image -->
+      <img
+        src="images/avatar.png"
+        alt="Profile"
+        class="w-32 h-32 rounded-full mx-auto mb-4"
+      />
+
+      <!-- Name & Title -->
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-2">Ishika Banga</h1>
+      <p class="text-lg sm:text-xl text-gray-800 font-medium mb-4">Frontend Developer | AI enthusiast</p>
+
+      <!-- Tagline -->
+      <p class="italic mt-2">"Turning curiosity into code, and dreams into digital reality."</p>
+
+      <!-- Resume Button -->
+      <a
+        href="Resume (1).pdf"
+        download
+        class="inline-block mt-6 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 shadow-md transition duration-300"
+
+      >
+        Download Resume
+      </a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-12 px-6 bg-white">
+      <h2 class="text-2xl font-bold mb-4">About Me</h2>
+      <p class="text-gray-800 text-lg ml-2">
+        I'm a passionate BTech CSE student with a keen interest in web
+        development, AI, and backend technologies.
+      </p>
+      <p class= "text-gray-800 text-lg ml-2">
+        I enjoy learning new technologies and solving real-world problems
+        through coding.
+      </p>
+
+      <!-- Skills -->
+      <h3 class="text-xl font-semibold mt-6">Skills</h3>
+      <ul class="list-disc ml-2 mt-2 bg-white shadow rounded-xl p-6">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Tailwind CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>AI</li>
+      </ul>
+
+      <!-- Education -->
+      <h3 class="text-xl font-semibold mt-6">Education</h3>
+      <ul class="list-disc ml-2 mt-2 bg-white shadow rounded-xl p-6">
+        <li>BTech in CSE – K.R. Managalam University</li>
+        <li>12th – SKDVM</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 px-6 bg-gray-100">
+      <h2 class="text-2xl font-bold mb-6">Projects</h2>
+
+      <div class="grid gap-6 md:grid-cols-3">
+        
+        <div
+          class="bg-white p-4 rounded-lg shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <img src="images/project1.png" alt="Project 1" class="mb-2 rounded" />
+          <h3 class="font-semibold">NoteMe App</h3>
+          <p class="text-sm text-gray-600">
+            A to-do note app using JavaScript & local storage.
+          </p>
+        </div>
+
+      <div
+          class="bg-white p-4 rounded-lg shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <img src="images/project2.png" alt="Project 2" class="mb-2 rounded" />
+          <h3 class="font-semibold">SheSells</h3>
+          <p class="text-sm text-gray-600">
+            A e-commerece website for women using Wordpress.
+          </p>
+      </div>
+
+      <div
+          class="bg-white p-4 rounded-lg shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <img src="images/project3.png" alt="Project 3" class="mb-2 rounded" />
+          <h3 class="font-semibold">Landmark Detection</h3>
+          <p class="text-sm text-gray-600">
+            Implemented a deep learning model to identify and classify landmarks in real-world imagery.
+          </p>
+      </div>
+
+      <div
+          class="bg-white p-4 rounded-lg shadow hover:shadow-lg hover:scale-105 transition"
+        >
+          <img src="images/project4.png" alt="Project 4" class="mb-2 rounded" />
+          <h3 class="font-semibold">Object Classification</h3>
+          <p class="text-sm text-gray-600">
+            Built an object detection model to locate and recognize handwritten digits in images.
+          </p>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-indigo-600 text-white">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold mb-6">Let's Connect</h3>
+        <p class="mb-4">Feel free to reach out for collaborations, internships, or just to say hi!</p>
+        <p class="text-lg">ishikabanga01@gmail.com</p>
+        <div class="mt-4 space-x-4">
+          <a href="https://www.linkedin.com/in/ishika-banga-5898a1325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="underline hover:text-gray-300">LinkedIn</a>
+          <a href="https://github.com/IshikaBanga26" class="underline hover:text-gray-300">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 text-sm bg-gray-100">
+      © 2025 Ishika Banga. All rights reserved.
+    </footer>
+  </body>
+</html>
