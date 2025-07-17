@@ -8,10 +8,6 @@ It includes sections like:
 - Projects
 - Contact
 
-## 🔗 Live Link
-
-Check it out here:(https://IshikaBanga26.github.io/Portfolio-name)
-
 ## 🛠️ Tech Used
 
 - HTML
