@@ -8,8 +8,13 @@ It includes sections like:
 - Projects
 - Contact
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML
 - Tailwind CSS
 
+## Contact me
+
+Emai-id - ishikabanga01@gmail.com
+Github - https://github.com/IshikaBanga26
+LinkedIn - https://www.linkedin.com/in/ishika-banga/
